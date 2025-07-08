@@ -1,0 +1,67 @@
+.blockItem {
+  display: flex;
+  background-color: #eaf2f9;
+  min-height: 300px;
+  padding: 48px;
+  align-items: center;
+  justify-content: space-between;
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.blockContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.blockNumber {
+  background-color: #4aa7b3;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.blockTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.blockDesc {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.blockButton {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+
+  .arrow {
+    margin-left: 6px;
+  }
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+.blockImage {
+  width: 300px;
+  height: 250px;
+  background-color: #d3d3d3;
+  flex-shrink: 0;
+}

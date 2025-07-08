@@ -1,0 +1,36 @@
+.Signupscreen {
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 3.75em 9.38rm;
+
+  .title {
+    font-size: 1.75rm;
+    font-weight: 600;
+    color: black;
+  }
+}
+
+.signupInputComponent {
+  width: 100%;
+  gap: 0.5rem;
+
+  .label {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #767676;
+  }
+
+  .inputField {
+    width: 10%;
+    padding: 1rem;
+  }
+
+  .signupButton {
+    margin-top: 3rem;
+    background-color: blue;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 200;
+  }
+}
