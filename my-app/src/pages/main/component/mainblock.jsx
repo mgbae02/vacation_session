@@ -1,15 +1,9 @@
 import { BlockItem } from './BlockItem';
+import './mainblock.scss'; // CSS 파일 import
 
 export const MainBlock = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '1px',
-        backgroundColor: '#d6dce1',
-      }}
-    >
+    <div className="mainBlockWrapper">
       <BlockItem
         number="1"
         title="내 계약서 검토"

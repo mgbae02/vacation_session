@@ -1,0 +1,31 @@
+.footer_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; // 여백은 상황에 맞게 조절
+}
+
+.footer_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; // 여백은 상황에 맞게 조절
+  gap: 2rem;
+}
+
+.footer_main {
+  display: flex;
+  justify-content: space-between; // 양 끝으로 배치
+  align-items: center; // 수직 정렬 (필요 시)
+  padding: 1rem 2rem; // 여백은 상황에 맞게 조절
+}
+
+.footer_left {
+  text-align: left;
+}
+
+.footer_right {
+  text-align: right;
+}

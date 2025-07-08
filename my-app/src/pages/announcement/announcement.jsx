@@ -1,13 +1,13 @@
 import { Footer } from '../../component/Footer';
 import ScreenContainer from '../../component/ScreenContainer';
-import { Header } from './../../component/Header';
-import { MainBlock } from './component/mainblock';
+import { Header } from '../../component/Header';
+import { AnnouncementItem } from './component/AnnouncementItem';
 
-export const Main = () => {
+export const Announcement = () => {
   return (
     <ScreenContainer>
       <Header />
-      <MainBlock />
+      <AnnouncementItem />
       <Footer />
     </ScreenContainer>
   );
