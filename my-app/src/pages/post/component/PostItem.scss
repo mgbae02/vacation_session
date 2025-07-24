@@ -1,0 +1,36 @@
+.post-item {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+
+  h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    color: #555;
+    margin-bottom: 1rem;
+  }
+
+  .post-item-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    .detail-btn {
+      border: none;
+      background: none;
+      color: #0077cc;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

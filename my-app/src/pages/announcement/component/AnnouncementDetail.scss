@@ -1,0 +1,48 @@
+.announcement1-title {
+  display: flex;
+  flex-direction: row; // 💡 가로 정렬
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 40px 40px;
+  text-align: center;
+
+  .title-main {
+    text-align: left;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .title-suv {
+    text-align: right;
+    font-size: 16px;
+    opacity: 0.9;
+  }
+}
+
+.announcement1-date {
+  padding: 40px;
+  text-align: left;
+  font-size: 14px;
+  color: #666;
+}
+
+.announcement1-content {
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 예시 텍스트도 스타일 맞춰주기 */
+.announcement1-content + p {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 16px;
+  color: #444;
+  padding: 0 20px;
+}

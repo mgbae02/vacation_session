@@ -6,9 +6,7 @@ import { AnnouncementItem } from './component/AnnouncementItem';
 export const Announcement = () => {
   return (
     <ScreenContainer>
-      <Header />
       <AnnouncementItem />
-      <Footer />
     </ScreenContainer>
   );
 };

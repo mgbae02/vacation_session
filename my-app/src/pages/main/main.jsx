@@ -6,9 +6,7 @@ import { MainBlock } from './component/mainblock';
 export const Main = () => {
   return (
     <ScreenContainer>
-      <Header />
       <MainBlock />
-      <Footer />
     </ScreenContainer>
   );
 };
