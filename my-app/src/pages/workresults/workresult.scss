@@ -1,0 +1,25 @@
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 50px;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  background-color: #eee;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #ddd;
+  }
+
+  &.active {
+    background-color: #4a90e2;
+    color: #fff;
+  }
+}

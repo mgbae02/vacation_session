@@ -1,0 +1,10 @@
+.mainBlockWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.0625rem; // 1px → 0.0625rem
+  background-color: #d6dce1;
+
+  width: 100%;
+  max-width: 75rem; // 1200px → 75rem
+  margin: 0 auto;
+}
